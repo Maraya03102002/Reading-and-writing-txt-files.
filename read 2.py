@@ -30,7 +30,7 @@ text_file.close()
 
 
 text_file=open("read_it.txt", "r")
-line= text_file.readlines()
+all_lines= text_file.readlines()
 print lines
 print len(lines) for line in lines:
 print line
